@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="form">
-        <input type="text" placeholder="Enter your name" id="name">
-        <span id="errorNa"></span>
-        <input type="email" placeholder="Enter your email" id="email">
-        <span id="errorEm"></span>
-        <input type="password" placeholder="Enter your password" id="password">
-        <span id="errorPas"></span>
-        <input type="password" placeholder="Retype your password" id="conformPassword">
-        <span id="errorCon"></span>
-        <button id="btn">click me!</button>
-    </div>
+    <div id="container">
+     <div id="calculator">
+         <div id="heading"><h1> Tip Calculater</h1></div>
+         <p>Enter the bill amount and tip percentage to calculate the total.</p>
+         <label for="">Bill Amount:</label>
+         <input type="text" placeholder="" id="amount">
+         <label for="">Tip percentage:</label>
+         <input type="text" placeholder="" id="tip">
+         <button id="calculate">Calculate</button>
+         <p>Total:<span id="result"></span></p>
+     </div>
+ </div>
+ <script src="mind.js"></script>
 </body>
 </html>
